@@ -7,6 +7,10 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "description": "DoneWithIt is a simple marketplace app where people can list, buy, and sell second-hand items easily.",
+    "homepage": "https://github.com/SUYASHSINGH7985/DoneWithIt",
+    "githubUrl": "https://github.com/SUYASHSINGH7985/DoneWithIt",
+    "keywords": ["marketplace", "react-native", "expo", "buy-sell"],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -24,6 +28,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8389e4f1-ac3a-4a69-9865-705bfb9e392a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8389e4f1-ac3a-4a69-9865-705bfb9e392a"
     }
   }
 }
